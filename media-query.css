@@ -1,0 +1,70 @@
+@media screen and (max-width:1400px){
+    section .conteiner1-texto h1{
+       font-size: 35px;
+       line-height: normal;
+   }
+   section .conteiner1-texto p{
+       margin-top: 10px;
+       font-size: 18px;
+       line-height: 25px;
+
+   }
+}
+@media screen and (max-width:1200px){
+    section .conteiner1-post{
+        display: none;
+    }
+    section .conteiner1-texto {
+        width: 100%;
+    }
+    section .conteiner1-texto p, section .conteiner1-texto h1{
+        width: 90%;
+    }
+    section .conteiner1-texto h1{
+        font-size: 40px;
+        margin-bottom:3%;
+    }
+    section .conteiner1-texto p{
+        font-size: 20px;
+        margin-bottom: 3%;
+    }
+}
+@media screen and (max-width:890px){
+    nav button, nav input{
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px){
+    main section:nth-child(3){
+        flex-direction: column;
+    }
+    .conteiner2-texto h3, .conteiner2-texto p,  .conteiner2-texto hr {
+        align-self: center;
+    }
+    section .conteiner2-post hr{
+        display: block !important;
+        
+    }
+    main section:nth-child(4){
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:540px){
+    nav ul{
+        display: none;
+    }
+    
+    nav i{
+        display: block !important;    
+    }
+    nav {
+        justify-content: space-between;
+        padding-left: 9%;
+        padding-right: 10%;
+    }
+    main section:nth-child(4) div{
+        width: 90%;
+    }
+}

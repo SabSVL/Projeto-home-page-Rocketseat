@@ -68,3 +68,13 @@
         width: 90%;
     }
 }
+@media screen and (max-width:360px){
+    section .conteiner1-texto h1{
+        font-size: 30px;
+     
+    }
+    section .conteiner1-texto p{
+        font-size: 15px;
+    
+    }
+}
